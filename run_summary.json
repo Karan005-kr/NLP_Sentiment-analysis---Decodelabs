@@ -1,0 +1,28 @@
+{
+    "project": "Project 4 - NLP & Sentiment Analysis",
+    "dataset_rows": 360,
+    "train_rows": 288,
+    "test_rows": 72,
+    "best_model": "LinearSVC",
+    "best_metrics": {
+        "model": "LinearSVC",
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+    },
+    "tfidf_settings": {
+        "ngram_range": "(1, 2)",
+        "max_features": 10000,
+        "min_df": 2,
+        "sublinear_tf": true
+    },
+    "preprocessing": [
+        "HTML/URL removal",
+        "lowercasing",
+        "tokenization",
+        "custom stop-word removal with negations preserved",
+        "POS-guided WordNet lemmatization"
+    ],
+    "generated_at": "2026-06-22T05:24:08"
+}
